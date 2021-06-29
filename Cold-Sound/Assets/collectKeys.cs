@@ -20,10 +20,16 @@ public class collectKeys : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        GM.nbKeys++;
-        KP_UI.AddKeyUI();
-        Destroy(gameObject);
+        Debug.Log(other.name);
+
+        if (other.name == "Personnage")
+        {
+            Debug.Log("coucou");
+            GM.nbKeys++;
+            KP_UI.AddKeyUI();
+            Destroy(gameObject);
+        }
     }
 }

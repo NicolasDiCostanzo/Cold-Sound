@@ -28,7 +28,7 @@ public class RandomKeysPosition : MonoBehaviour
         Vector3 pos = transform.GetChild(indexChild).GetChild(index).transform.position;
 
         keysInstances.Add(Instantiate(keysPrefab[indexChild], pos, Quaternion.identity));
-        keysInstances[indexChild].transform.SetParent(transform.GetChild(indexChild).GetChild(index).transform);
+        keysInstances[indexChild].transform.SetParent(transform.GetChild(indexChild).GetChild(1).transform);
         keysInstances[indexChild].name = "Key " + (indexChild + 1);
     }
 }

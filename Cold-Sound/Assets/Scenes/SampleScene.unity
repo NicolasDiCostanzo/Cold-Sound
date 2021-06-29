@@ -2330,7 +2330,7 @@ GameObject:
   - component: {fileID: 162945218}
   - component: {fileID: 162945217}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Dead zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7397,7 +7397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713140648751691124, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}

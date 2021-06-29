@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5949436754227661657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5949436754227661663}
+  - component: {fileID: 5949436754227661656}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5949436754227661663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5949436754227661657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5949436754227661656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5949436754227661657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d498c21bfe4ffe42b0fb3b90b2dcbc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterSounds:
+  - {fileID: 8300000, guid: 179bf91a58046134e82183be2d83b6c2, type: 3}
+  - {fileID: 8300000, guid: 21be9321591bc0241b56511f3fadd9d6, type: 3}
+  - {fileID: 8300000, guid: 912bd575518d59b4a912c3102c86ca49, type: 3}
+  - {fileID: 8300000, guid: e4626478f87904945ae194da6c9f4ad9, type: 3}
+  MonsterPrepareSounds:
+  - {fileID: 8300000, guid: c597dc2afedee5f499e353e19295753e, type: 3}
+  - {fileID: 8300000, guid: 6cbfadb921d937a4da927e37cd182da6, type: 3}
+  MonsterPassSounds:
+  - {fileID: 8300000, guid: 2af4263a9abb25c4297e10a6f6c9feb6, type: 3}
+  - {fileID: 8300000, guid: 8c84a7baf784510458ac2963c38293cb, type: 3}
+  - {fileID: 8300000, guid: b78c1b5ffead14d46aa0c44b4d176939, type: 3}
+  - {fileID: 8300000, guid: 45d8491dace028546afb12977a3142e7, type: 3}
+  - {fileID: 8300000, guid: 5e6dfa907edc55c429aacc4f03bc732b, type: 3}
+  - {fileID: 8300000, guid: 4d33174db82f0d749af1be2011387d51, type: 3}
+  - {fileID: 8300000, guid: 8a63fe6805894ad4981514a32af370aa, type: 3}
+  - {fileID: 8300000, guid: a3584857926c3594c9e3fd3bbe5321fd, type: 3}
+  - {fileID: 8300000, guid: 5e58c2516b1cc4a418731edb46fad36d, type: 3}
+  MonsterAttacksSounds:
+  - {fileID: 8300000, guid: fd1adca20661d9047bcf6f6447acb652, type: 3}
+  - {fileID: 8300000, guid: 0b083851335e83844af53ed18c413e7b, type: 3}
+  - {fileID: 8300000, guid: 807323d928d97274a918473f0bdb09a4, type: 3}
+  - {fileID: 8300000, guid: 9b72ee51e198c2f4b83dd2a790102876, type: 3}
+  - {fileID: 8300000, guid: 471f6fe14021e884aa557c8ca158f331, type: 3}
+  atmospheres:
+  - {fileID: 8300000, guid: ce722c33d8f784443b700b33d8e374df, type: 3}
+  - {fileID: 8300000, guid: c217307482f8b19449a8f7bae693823d, type: 3}
+  screams:
+  - {fileID: 8300000, guid: 3c0c603441506934a946b119a37ce714, type: 3}
+  - {fileID: 8300000, guid: 80112cac2cb86b34e86a5849850da215, type: 3}
+  - {fileID: 8300000, guid: e3022bbca1d5c5c46bb3ef7773efed96, type: 3}
+  - {fileID: 8300000, guid: eea4a6b3fd69da241a0f3f811247dcba, type: 3}
+  ploufs:
+  - {fileID: 8300000, guid: 938484eb0f7f5104e99121d3a4780143, type: 3}
+  - {fileID: 8300000, guid: d131396c595c8e44fad1532fe62a2863, type: 3}
+  - {fileID: 8300000, guid: 481a83dde875a8f49915f4bb589c0e7e, type: 3}
+  source: {fileID: 0}

@@ -19,11 +19,13 @@ public class MonsterBehavior : MonoBehaviour
     private bool isAlerted;
 
     public GameObject monster_Prefab;
-    public GameObject monster_GO;
+    private GameObject monster_GO;
+    private AudioManager audioManager;
 
     // Start is called before the first frame update
     void Start()
     {
+        audioManager = FindObjectOfType<AudioManager>();
         spawnProbability = 0f;
         probability_valueChanged = spawnProbability;
 
@@ -39,31 +41,6 @@ public class MonsterBehavior : MonoBehaviour
 
             probability_valueChanged = spawnProbability;
         }
-
-
-        //~~~~~~~~~~~~~~TEST~~~~~~~~~~~~~~~~~~
-        if (Input.GetKeyDown(KeyCode.A))    // hit wall
-        {
-            
-            HearingSound_FromWall();
-        }
-        if (Input.GetKeyDown(KeyCode.Z))    // skate wall
-        {
-            
-            HearingSound_FromSkate();
-        }
-        if (Input.GetKeyDown(KeyCode.E))    // glide wall
-        {
-            
-            HearingSound_FromGliding();
-        }
-        if (Input.GetKeyDown(KeyCode.R))    // key wall
-        {
-            
-            HearingSound_FromKey();
-        }
-
-
     }
 
     IEnumerator MonsterIsAlerted()
@@ -89,16 +66,30 @@ public class MonsterBehavior : MonoBehaviour
     {
         if(Random.Range(0, 1f) < spawnProbability)
         {
-            Debug.LogError("Monster Spawns");
+            Debug.Log("Monster Spawns");
+
+            StartCoroutine(MonsterAttackSounds());
+
             monster_GO = Instantiate(monster_Prefab);
         }
+    }
+    
+    IEnumerator MonsterAttackSounds()
+    {
+        audioManager.Play(AudioManager.SoundCategory.MonsterPrepareSounds);
+        yield return new WaitForSeconds(0.5f);
+        audioManager.Play(AudioManager.SoundCategory.MonsterAttacksSounds);
     }
 
     private void TryPlaySoundMonster()
     {
         if (Random.Range(0, 1f) < spawnProbability)
         {
-            Debug.LogError("Monster makes Sound");
+            Debug.Log("Monster makes Sound");
+            if(spawnProbability < .3f)
+                audioManager.Play(AudioManager.SoundCategory.MonsterPassSounds);
+            else
+                audioManager.Play(AudioManager.SoundCategory.MonsterSounds);
             
             if (!isAlerted)
                 StartCoroutine(MonsterIsAlerted());

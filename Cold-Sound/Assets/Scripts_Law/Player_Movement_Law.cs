@@ -37,10 +37,7 @@ public class Player_Movement_Law : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             rb.AddForce(transform.forward * -m_Speed, ForceMode.Force);
-        }
-        
-        
-
+        }  
     }
     private void FixedUpdate()
     {

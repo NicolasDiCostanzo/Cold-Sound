@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1572,6 +1572,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 77066638681651023, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
   m_PrefabInstance: {fileID: 99399427}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &100159498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100159500}
+  - component: {fileID: 100159499}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &100159499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100159498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070d2711489ae134da928102a148e6b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nbKeys: 0
+--- !u!4 &100159500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100159498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &106631206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16293,9 +16337,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keysPrefab:
-  - {fileID: 1474843104853226417, guid: 630604436a102874ab90ad5fed6a6fa4, type: 3}
-  - {fileID: 1707870621578042342, guid: c8d4f9649bcf8254fa547d070225d8be, type: 3}
-  - {fileID: 7993245788318426523, guid: ef336c906038fd54aa719eb811edfe39, type: 3}
+  - {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+  - {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+  - {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
 --- !u!1001 &1582385663
 PrefabInstance:
   m_ObjectHideFlags: 0

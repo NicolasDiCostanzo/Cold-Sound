@@ -7327,6 +7327,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1665852749832800352, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2000570103770996111, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
       propertyPath: m_Center.z
       value: 0.5
@@ -7443,8 +7447,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.523
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9061183921879735093, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
 --- !u!1001 &625067987
 PrefabInstance:
@@ -11005,7 +11008,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -13607,7 +13610,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.1
   m_Range: 5
   m_SpotAngle: 50
   m_InnerSpotAngle: 5

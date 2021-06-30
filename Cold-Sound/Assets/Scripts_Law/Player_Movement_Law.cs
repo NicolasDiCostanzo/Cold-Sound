@@ -9,6 +9,7 @@ public class Player_Movement_Law : MonoBehaviour
     public float m_torque = 0.1f;
     Vector3 m_EulerAngleVelocity;
     public static bool isAlive = true;
+    public Animator anim;
 
     float smooth = 5.0f;
     public float tiltAngle = 40f;
@@ -18,6 +19,7 @@ public class Player_Movement_Law : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         m_EulerAngleVelocity = new Vector3(0, 1, 0);
+       // anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,11 +38,19 @@ public class Player_Movement_Law : MonoBehaviour
             if (Input.GetKey(KeyCode.Z))
             {
                 rb.AddForce(transform.forward * m_Speed, ForceMode.Force);
+                anim.SetBool("IsWalking", true);
             }
             if (Input.GetKey(KeyCode.S))
             {
                 rb.AddForce(transform.forward * -m_Speed, ForceMode.Force);
+                anim.SetBool("IsWalking", true);
             }
+
+            if (!Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.Z))
+            {
+                anim.SetBool("IsWalking", false);
+            }
+
         }
         
     }

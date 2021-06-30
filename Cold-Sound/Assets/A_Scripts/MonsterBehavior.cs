@@ -4,7 +4,7 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class MonsterBehavior : MonoBehaviour
 {
-    static private float WALL_SOUND_PROBA = .20f;
+    static private float WALL_SOUND_PROBA = .10f;
     static private float SKATE_SOUND_PROBA = .01f;
     static private float BRAKE_SOUND_PROBA = .15f;
     static private float GLIDING_SOUND_PROBA = .05f;

@@ -21,15 +21,15 @@ public class Player_Movement_Law : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.Q))
         {
-            transform.Rotate(Vector3.down * Time.deltaTime * tiltAngle);
+            transform.Rotate(Vector3.down * Time.fixedDeltaTime* tiltAngle);
         }
         if(Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(Vector3.up * Time.deltaTime * tiltAngle);
+            transform.Rotate(Vector3.up * Time.fixedDeltaTime * tiltAngle);
         }
         if (Input.GetKey(KeyCode.Z))
         {
@@ -39,25 +39,6 @@ public class Player_Movement_Law : MonoBehaviour
         {
             rb.AddForce(transform.forward * -m_Speed, ForceMode.Force);
         }  
-    }
-    private void FixedUpdate()
-    {
-        //Quaternion deltaRotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z);
-        //if(deltaRotation.eulerAngles.magnitude > 0)
-        //{
-        //    rb.AddTorque(-m_EulerAngleVelocity, ForceMode.Force);
-        //}
-        //Debug.Log(rb.velocity.y);
-        
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-       // if(collision.gameObject.tag == "IceWall")
-       // {
-       //     rb.constraints = RigidbodyConstraints.FreezeRotationY;
-       //     rb.constraints = RigidbodyConstraints.None;
-       //     rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-       // }
     }
     private void OnTriggerEnter(Collider other)
     {

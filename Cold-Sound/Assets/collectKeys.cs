@@ -22,13 +22,12 @@ public class collectKeys : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
-
         if (other.name == "Personnage")
         {
-            Debug.Log("coucou");
             GM.nbKeys++;
             KP_UI.AddKeyUI();
+            MonsterBehavior.HearingSound_FromKey();
+
             Destroy(gameObject);
         }
     }

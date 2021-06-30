@@ -14,7 +14,7 @@ public class MonsterBehavior : MonoBehaviour
     static private float MODIF_PROBA_AFTER_STOP_ALERTED = .75f;
     static private float NB_SECONDES_MONSTER_ALERTED = 2f;
 
-    private float spawnProbability;
+    public static float spawnProbability;
     private float probability_valueChanged;
     private bool isAlerted;
 
@@ -97,7 +97,7 @@ public class MonsterBehavior : MonoBehaviour
         }
     }
 
-    public void HearingSound_FromWall()
+    public static void HearingSound_FromWall()
     {
         if(Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -106,7 +106,7 @@ public class MonsterBehavior : MonoBehaviour
         }   
     }
 
-    public void HearingSound_FromSkate()
+    public static void HearingSound_FromSkate()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -114,8 +114,8 @@ public class MonsterBehavior : MonoBehaviour
             spawnProbability += SKATE_SOUND_PROBA;
         }
     }
-    
-    public void HearingSound_FromGliding()
+
+    public static void HearingSound_FromGliding()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -123,7 +123,7 @@ public class MonsterBehavior : MonoBehaviour
             spawnProbability += GLIDING_SOUND_PROBA;
         }
     }
-    public void HearingSound_FromBraking()
+    public static void HearingSound_FromBraking()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -132,7 +132,7 @@ public class MonsterBehavior : MonoBehaviour
         }
     }
 
-    public void HearingSound_FromKey()
+    public static void HearingSound_FromKey()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {

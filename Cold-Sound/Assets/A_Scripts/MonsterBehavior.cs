@@ -96,7 +96,7 @@ public class MonsterBehavior : MonoBehaviour
         }
     }
 
-    public void HearingSound_FromWall()
+    public static void HearingSound_FromWall()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -105,7 +105,7 @@ public class MonsterBehavior : MonoBehaviour
         }
     }
 
-    public void HearingSound_FromSkate()
+    public static void HearingSound_FromSkate()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -114,7 +114,7 @@ public class MonsterBehavior : MonoBehaviour
         }
     }
 
-    public void HearingSound_FromGliding()
+    public static void HearingSound_FromGliding()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -122,7 +122,7 @@ public class MonsterBehavior : MonoBehaviour
             spawnProbability += GLIDING_SOUND_PROBA;
         }
     }
-    public void HearingSound_FromBraking()
+    public static void HearingSound_FromBraking()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
@@ -131,7 +131,7 @@ public class MonsterBehavior : MonoBehaviour
         }
     }
 
-    public void HearingSound_FromKey()
+    public static void HearingSound_FromKey()
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {

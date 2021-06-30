@@ -20,10 +20,10 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Play(SoundCategory.screams);
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    Play(SoundCategory.screams);
+        //}
     }
 
     public void Play(SoundCategory nameCategory)

@@ -40,7 +40,25 @@ public class Player_Movement_Law : MonoBehaviour
             rb.AddForce(transform.forward * -m_Speed, ForceMode.Force);
         }  
     }
-
+    private void FixedUpdate()
+    {
+        //Quaternion deltaRotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z);
+        //if(deltaRotation.eulerAngles.magnitude > 0)
+        //{
+        //    rb.AddTorque(-m_EulerAngleVelocity, ForceMode.Force);
+        //}
+        //Debug.Log(rb.velocity.y);
+        
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+       // if(collision.gameObject.tag == "IceWall")
+       // {
+       //     rb.constraints = RigidbodyConstraints.FreezeRotationY;
+       //     rb.constraints = RigidbodyConstraints.None;
+       //     rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+       // }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Dead zone") SetIsAlive(false);

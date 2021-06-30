@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.054039598, g: 0.07320883, b: 0.12174388, a: 1}
+  m_IndirectSpecularColor: {r: 0.054027066, g: 0.07320949, b: 0.12166601, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -163,6 +163,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (477)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -343,6 +347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -408,6 +416,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -475,6 +487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (354)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -540,6 +556,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -607,6 +627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (461)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -672,6 +696,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -739,6 +767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -804,6 +836,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -871,6 +907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (445)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -936,6 +976,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (289)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -1003,6 +1047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (625)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1068,6 +1116,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (380)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -1135,6 +1187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1200,6 +1256,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (471)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -1298,6 +1358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1363,6 +1427,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (227)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -1430,6 +1498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1495,6 +1567,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (329)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -1628,6 +1704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1693,6 +1773,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -1760,6 +1844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1825,6 +1913,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (458)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -1925,6 +2017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1990,6 +2086,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (325)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -2057,6 +2157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (190)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2122,6 +2226,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -2189,6 +2297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (291)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2255,6 +2367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (344)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2320,6 +2436,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -2440,6 +2560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (446)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2505,6 +2629,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (670)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -2572,6 +2700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (245)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2637,6 +2769,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (337)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -2704,6 +2840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2769,6 +2909,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -2836,6 +2980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2901,6 +3049,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (324)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -2968,6 +3120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3033,6 +3189,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (201)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -3100,6 +3260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3165,6 +3329,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -3232,6 +3400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (465)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3297,6 +3469,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -3364,6 +3540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3430,6 +3610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (296)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3495,6 +3679,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (467)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -3592,6 +3780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3657,6 +3849,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (222)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -3724,6 +3920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3789,6 +3989,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -3856,6 +4060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (666)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3921,6 +4129,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (282)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -3988,6 +4200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4053,6 +4269,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -4330,6 +4550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4404,6 +4628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (326)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4469,6 +4697,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -4536,6 +4768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4601,6 +4837,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (221)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -4668,6 +4908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4733,6 +4977,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -4800,6 +5048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4865,6 +5117,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -4932,6 +5188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4997,6 +5257,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -5064,6 +5328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5129,6 +5397,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -5196,6 +5468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (287)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5261,6 +5537,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (626)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -5361,6 +5641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5426,6 +5710,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (460)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -5493,6 +5781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (452)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5558,6 +5850,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -5625,6 +5921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5691,6 +5991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5756,6 +6060,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (311)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -5893,6 +6201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (648)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5958,6 +6270,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6055,6 +6371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6120,6 +6440,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (360)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6187,6 +6511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (347)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6252,6 +6580,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (293)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6319,6 +6651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6384,6 +6720,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (339)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6451,6 +6791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6516,6 +6860,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (663)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6583,6 +6931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6648,6 +7000,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6715,6 +7071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (449)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6780,6 +7140,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6847,6 +7211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (444)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6912,6 +7280,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -6979,6 +7351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7044,6 +7420,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -7111,6 +7491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (247)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7176,6 +7560,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (664)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -7243,6 +7631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7308,6 +7700,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -7405,6 +7801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7470,6 +7870,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -7537,6 +7941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (204)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7602,6 +8010,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (187)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -7738,6 +8150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7803,6 +8219,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -7870,6 +8290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7935,6 +8359,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (194)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -8383,6 +8811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (466)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8511,6 +8943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8576,6 +9012,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -8643,6 +9083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (220)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8709,6 +9153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8774,6 +9222,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -8934,6 +9386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8999,6 +9455,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (447)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9066,6 +9526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (660)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9131,6 +9595,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (383)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9198,6 +9666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9263,6 +9735,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (330)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9330,6 +9806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (635)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9395,6 +9875,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9462,6 +9946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9527,6 +10015,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9594,6 +10086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9659,6 +10155,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9726,6 +10226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (297)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9791,6 +10295,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (341)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9858,6 +10366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9923,6 +10435,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -9990,6 +10506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (336)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10055,6 +10575,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (317)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -10122,6 +10646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (627)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10187,6 +10715,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -10254,6 +10786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10319,6 +10855,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (179)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -10386,6 +10926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (381)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10451,6 +10995,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (199)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -10518,6 +11066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10583,6 +11135,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -10650,6 +11206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (288)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10715,6 +11275,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -10782,6 +11346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10847,6 +11415,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -10914,6 +11486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (312)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10979,6 +11555,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (457)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -11046,6 +11626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (243)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11112,6 +11696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (202)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11177,6 +11765,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -11262,6 +11854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11327,6 +11923,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -11650,6 +12250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11715,6 +12319,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (671)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -11787,6 +12395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11853,6 +12465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11918,6 +12534,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (246)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -15374,6 +15994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -15439,6 +16063,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (469)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -15506,6 +16134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (377)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -15571,6 +16203,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -15638,6 +16274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -15703,6 +16343,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (375)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -15770,6 +16414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -15835,6 +16483,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -15902,6 +16554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -15967,6 +16623,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16034,6 +16694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (342)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16099,6 +16763,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16166,6 +16834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16231,6 +16903,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (226)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16298,6 +16974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16363,6 +17043,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16430,6 +17114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16495,6 +17183,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (464)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16562,6 +17254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (376)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16627,6 +17323,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (334)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16694,6 +17394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16759,6 +17463,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16826,6 +17534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (244)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16891,6 +17603,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (662)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -16958,6 +17674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (669)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17023,6 +17743,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (295)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -17090,6 +17814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17155,6 +17883,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (335)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -17222,6 +17954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (665)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17287,6 +18023,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -17354,6 +18094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17419,6 +18163,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -17486,6 +18234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (198)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17551,6 +18303,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -17618,6 +18374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (193)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17683,6 +18443,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (378)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -17750,6 +18514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17815,6 +18583,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (218)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -17882,6 +18654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -17947,6 +18723,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18044,6 +18824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18109,6 +18893,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (327)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18176,6 +18964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (451)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18241,6 +19033,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (359)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18308,6 +19104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18373,6 +19173,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (374)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18440,6 +19244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18505,6 +19313,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (346)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18572,6 +19384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18637,6 +19453,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18709,6 +19529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (343)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18774,6 +19598,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18841,6 +19669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18906,6 +19738,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -18973,6 +19809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19038,6 +19878,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -19105,6 +19949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19170,6 +20018,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -19237,6 +20089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19302,6 +20158,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (338)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -19369,6 +20229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19434,6 +20298,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -19601,6 +20469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (472)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19666,6 +20538,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -19733,6 +20609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19798,6 +20678,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (182)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -19865,6 +20749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19930,6 +20818,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -19997,6 +20889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20062,6 +20958,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -20129,6 +21029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (294)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20194,6 +21098,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (653)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -20261,6 +21169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20327,6 +21239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20392,6 +21308,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -20519,6 +21439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20584,6 +21508,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (333)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -20651,6 +21579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (624)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20716,6 +21648,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -20783,6 +21719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (661)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20849,6 +21789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20914,6 +21858,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -21031,6 +21979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21127,6 +22079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21192,6 +22148,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (647)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -21259,6 +22219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21324,6 +22288,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -21392,6 +22360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21457,6 +22429,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -21524,6 +22500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21589,6 +22569,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -21656,6 +22640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (223)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21722,6 +22710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21787,6 +22779,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -21855,6 +22851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (328)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21920,6 +22920,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -21987,6 +22991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (453)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22052,6 +23060,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -22152,6 +23164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (290)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22217,6 +23233,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -22284,6 +23304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22349,6 +23373,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -22416,6 +23444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (634)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22481,6 +23513,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -22548,6 +23584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22613,6 +23653,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (667)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -22680,6 +23724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22745,6 +23793,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -22812,6 +23864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22877,6 +23933,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -22974,6 +24034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (306)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23039,6 +24103,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -23106,6 +24174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (379)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23171,6 +24243,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -23238,6 +24314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23303,6 +24383,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (668)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -23370,6 +24454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23435,6 +24523,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (633)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -23502,6 +24594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (372)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23567,6 +24663,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -23634,6 +24734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23699,6 +24803,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -23766,6 +24874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (462)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23831,6 +24943,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (628)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -23898,6 +25014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23963,6 +25083,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24030,6 +25154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24095,6 +25223,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24162,6 +25294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (216)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24227,6 +25363,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (195)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24294,6 +25434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24359,6 +25503,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (382)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24426,6 +25574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (468)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24491,6 +25643,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24558,6 +25714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24623,6 +25783,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24690,6 +25854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (203)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24755,6 +25923,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24822,6 +25994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (292)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24887,6 +26063,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (450)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -24954,6 +26134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (470)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25019,6 +26203,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -25086,6 +26274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (340)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25151,6 +26343,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -25218,6 +26414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25283,6 +26483,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -25396,8 +26600,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b0feac13c071249a892efe50b3ea04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweensScreams_lowLimit: 0
-  secondsBetweensScreams_highLimit: 3
+  secondsBetweensScreams_lowLimit: 30
+  secondsBetweensScreams_highLimit: 90
 --- !u!1001 &1941997197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25408,6 +26612,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (240)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -25475,6 +26683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (332)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25540,6 +26752,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -25607,6 +26823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25672,6 +26892,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (217)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -25739,6 +26963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25804,6 +27032,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (138)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -25871,6 +27103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (459)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25936,6 +27172,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (454)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26003,6 +27243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26068,6 +27312,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (219)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26135,6 +27383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (331)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26200,6 +27452,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (299)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26267,6 +27523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (463)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26332,6 +27592,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26399,6 +27663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (473)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26464,6 +27732,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (455)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26531,6 +27803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (365)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26596,6 +27872,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (456)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26663,6 +27943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26728,6 +28012,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (373)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26795,6 +28083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (448)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26860,6 +28152,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -26927,6 +28223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26992,6 +28292,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (345)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -27059,6 +28363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (629)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -27124,6 +28432,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (200)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -27191,6 +28503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (298)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -27256,6 +28572,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
@@ -27323,6 +28643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice block (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -27388,6 +28712,10 @@ PrefabInstance:
     - target: {fileID: 77066638681651018, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Name
       value: Ice block
+      objectReference: {fileID: 0}
+    - target: {fileID: 77066638681651019, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
+      propertyPath: maxMeltValue
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 77066638681651021, guid: b4e251e77e613c94e9976834a1e6b966, type: 3}
       propertyPath: m_Enabled

@@ -15,23 +15,16 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        
+        PlayAtmosphereSounds();
     }
 
-    private void Update()
-    {
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    Play(SoundCategory.screams);
-        //}
-    }
 
     public void Play(SoundCategory nameCategory)
     {
         if (source == null)
             source = FindObjectOfType<AudioSource>();
 
-        float defaultSourceVolume = source.volume;
+
         source.volume = MonsterBehavior.spawnProbability;
 
         switch (nameCategory)
@@ -49,11 +42,10 @@ public class AudioManager : MonoBehaviour
                 source.clip = MonsterAttacksSounds[UnityEngine.Random.Range(0, MonsterAttacksSounds.Length)];
                 break;
             case SoundCategory.atmospheres:
-                source.clip = atmospheres[UnityEngine.Random.Range(0, atmospheres.Length)];
+                PlayAtmosphereSounds();
                 break;
             case SoundCategory.screams:
                 source.clip = screams[UnityEngine.Random.Range(0, screams.Length)];
-
                 break;
             case SoundCategory.ploufs:
                 source.clip = ploufs[UnityEngine.Random.Range(0, ploufs.Length)];
@@ -62,6 +54,17 @@ public class AudioManager : MonoBehaviour
 
         source.Play();
         //if(source.volume != defaultSourceVolume) source.volume = defaultSourceVolume;
+    }
+
+    void PlayAtmosphereSounds()
+    {
+        Debug.Log("play");
+        foreach (AudioClip clip in atmospheres)
+        {
+            AudioSource newAudioSource = gameObject.AddComponent<AudioSource>();
+            newAudioSource.clip = clip;
+            newAudioSource.Play();
+        }
     }
 
     public enum SoundCategory

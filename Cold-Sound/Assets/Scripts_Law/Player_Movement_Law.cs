@@ -11,7 +11,7 @@ public class Player_Movement_Law : MonoBehaviour
     public static bool isAlive = true;
 
     float smooth = 5.0f;
-    float tiltAngle = 40f;
+    public float tiltAngle = 40f;
 
     // Start is called before the first frame update
     void Start()

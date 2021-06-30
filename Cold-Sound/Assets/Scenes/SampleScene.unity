@@ -7356,8 +7356,16 @@ PrefabInstance:
       value: Personnage
       objectReference: {fileID: 0}
     - target: {fileID: 7272499193569393730, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
+      propertyPath: m_Speed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272499193569393730, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
       propertyPath: m_torque
-      value: 0.4
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272499193569393730, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
+      propertyPath: tiltAngle
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 7272499193569393731, guid: 86b2948c4ab5d0b4e926de815a49d2ea, type: 3}
       propertyPath: m_Mass

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterBehavior : MonoBehaviour
@@ -35,7 +34,7 @@ public class MonsterBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(spawnProbability != probability_valueChanged)
+        if (spawnProbability != probability_valueChanged)
         {
             TryPlaySoundMonster();
 
@@ -52,7 +51,7 @@ public class MonsterBehavior : MonoBehaviour
 
         yield return new WaitForSeconds(NB_SECONDES_MONSTER_ALERTED);
 
-        if(valueAlerted != spawnProbability)
+        if (valueAlerted != spawnProbability)
         {
             TrySpawnMonster();
         }
@@ -64,7 +63,7 @@ public class MonsterBehavior : MonoBehaviour
     }
     public void TrySpawnMonster()
     {
-        if(Random.Range(0, 1f) < spawnProbability)
+        if (Random.Range(0, 1f) < spawnProbability)
         {
             Debug.Log("Monster Spawns");
 
@@ -73,7 +72,7 @@ public class MonsterBehavior : MonoBehaviour
             monster_GO = Instantiate(monster_Prefab);
         }
     }
-    
+
     IEnumerator MonsterAttackSounds()
     {
         audioManager.Play(AudioManager.SoundCategory.MonsterPrepareSounds);
@@ -86,11 +85,11 @@ public class MonsterBehavior : MonoBehaviour
         if (Random.Range(0, 1f) < spawnProbability)
         {
             Debug.Log("Monster makes Sound");
-            if(spawnProbability < .3f)
+            if (spawnProbability < .3f)
                 audioManager.Play(AudioManager.SoundCategory.MonsterPassSounds);
             else
                 audioManager.Play(AudioManager.SoundCategory.MonsterSounds);
-            
+
             if (!isAlerted)
                 StartCoroutine(MonsterIsAlerted());
 
@@ -99,11 +98,11 @@ public class MonsterBehavior : MonoBehaviour
 
     public static void HearingSound_FromWall()
     {
-        if(Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
+        if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
             Debug.Log("Hearing sound from wall");
             spawnProbability += WALL_SOUND_PROBA;
-        }   
+        }
     }
 
     public static void HearingSound_FromSkate()

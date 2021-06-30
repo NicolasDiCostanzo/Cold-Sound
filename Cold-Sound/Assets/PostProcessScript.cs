@@ -14,7 +14,7 @@ public class PostProcessScript : MonoBehaviour
 
     void Start()
     {
-        intensityOfMonster = MonsterBehavior.spawnProbability;
+        intensityOfMonster = MonsterBehavior.riskOfDying;
         postVolume = GetComponent<PostProcessVolume>();
         postVolume.profile.TryGetSettings(out vignette);
         vignette.intensity.value = intensityOfMonster;
@@ -23,7 +23,7 @@ public class PostProcessScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        intensityOfMonster = MonsterBehavior.spawnProbability;
+        intensityOfMonster = MonsterBehavior.riskOfDying;
         vignette.intensity.value = intensityOfMonster;
     }
 }

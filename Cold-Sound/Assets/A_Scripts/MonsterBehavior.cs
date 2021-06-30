@@ -11,8 +11,10 @@ public class MonsterBehavior : MonoBehaviour
     static private float KEY_SOUND_PROBA = .05f;
     static private float HEARING_PROBABILITY = .4f;
 
-    static private float MODIF_PROBA_AFTER_STOP_ALERTED = .5f;
-    static private float NB_SECONDES_MONSTER_ALERTED = 2f;
+    static private float MODIF_PROBA_AFTER_STOP_ALERTED = .4f;
+    static private float NB_SECONDES_MONSTER_ALERTED = 1f;
+
+    public static float riskOfDying = 0f;
 
     public static float spawnProbability;
     private float probability_valueChanged;
@@ -56,6 +58,7 @@ public class MonsterBehavior : MonoBehaviour
         Debug.Log("Monster is alerted");
         isAlerted = true;
 
+        riskOfDying += 0.2f;
         float valueAlerted = spawnProbability;
 
         yield return new WaitForSeconds(NB_SECONDES_MONSTER_ALERTED);
@@ -65,6 +68,7 @@ public class MonsterBehavior : MonoBehaviour
             TrySpawnMonster();
         }
         spawnProbability *= MODIF_PROBA_AFTER_STOP_ALERTED;
+        riskOfDying *= MODIF_PROBA_AFTER_STOP_ALERTED;
         probability_valueChanged = spawnProbability;
 
         isAlerted = false;

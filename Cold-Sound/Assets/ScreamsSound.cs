@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class ScreamsSound : MonoBehaviour
@@ -34,15 +35,16 @@ public class ScreamsSound : MonoBehaviour
 
     float NewTimeBetweenTwoScreams()
     {
-        return Random.Range(secondsBetweensScreams_lowLimit, secondsBetweensScreams_highLimit);
+        return UnityEngine.Random.Range(secondsBetweensScreams_lowLimit, secondsBetweensScreams_highLimit);
     }
 
     void ScreamSound()
     {
-        audioManager.Play(AudioManager.SoundCategory.screams);
-        timeBetweenScreams = NewTimeBetweenTwoScreams();
-        Debug.Log(timeBetweenScreams);
+        int nbEnumValues = Enum.GetValues(typeof(AudioManager.SoundCategory)).Length;
+        int typeOfSoundToPlay = UnityEngine.Random.Range(0, nbEnumValues);
 
+        audioManager.Play((AudioManager.SoundCategory) typeOfSoundToPlay);
+        timeBetweenScreams = NewTimeBetweenTwoScreams();
     }
 
 

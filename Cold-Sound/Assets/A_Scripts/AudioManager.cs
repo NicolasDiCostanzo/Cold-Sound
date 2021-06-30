@@ -24,8 +24,9 @@ public class AudioManager : MonoBehaviour
         if (source == null)
             source = FindObjectOfType<AudioSource>();
 
-
         source.volume = MonsterBehavior.spawnProbability;
+
+        Debug.Log("Monster spawn probability: " + MonsterBehavior.spawnProbability);
 
         switch (nameCategory)
         {
@@ -53,12 +54,10 @@ public class AudioManager : MonoBehaviour
         }
 
         source.Play();
-        //if(source.volume != defaultSourceVolume) source.volume = defaultSourceVolume;
     }
 
     void PlayAtmosphereSounds()
     {
-        Debug.Log("play");
         foreach (AudioClip clip in atmospheres)
         {
             AudioSource newAudioSource = gameObject.AddComponent<AudioSource>();

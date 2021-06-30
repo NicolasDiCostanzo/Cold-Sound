@@ -94,6 +94,7 @@ public class AN_DoorScript : MonoBehaviour
     {
         if (isOpened)
         {
+            rbDoor.mass = 0.0001f;
             currentLim = 85f;
         }
         else

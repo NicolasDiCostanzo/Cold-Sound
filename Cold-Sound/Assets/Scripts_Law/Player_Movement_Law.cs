@@ -25,7 +25,7 @@ public class Player_Movement_Law : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Q))
         {
-            transform.Rotate(Vector3.down * Time.fixedDeltaTime* tiltAngle);
+            transform.Rotate(Vector3.down * Time.fixedDeltaTime * tiltAngle);
         }
         if(Input.GetKey(KeyCode.D))
         {
@@ -40,6 +40,7 @@ public class Player_Movement_Law : MonoBehaviour
             rb.AddForce(transform.forward * -m_Speed, ForceMode.Force);
         }  
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Dead zone")

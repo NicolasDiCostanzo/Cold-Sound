@@ -8,6 +8,7 @@ public class Player_Movement_Law : MonoBehaviour
     public float m_Speed = 20f;
     public float m_torque = 0.1f;
     Vector3 m_EulerAngleVelocity;
+    public static bool isAlive = true;
 
     float smooth = 5.0f;
     float tiltAngle = 40f;
@@ -57,6 +58,17 @@ public class Player_Movement_Law : MonoBehaviour
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Dead zone") SetIsAlive(false);
+    }
+
+    public static void SetIsAlive(bool a_isAlive)
+    {
+        isAlive = a_isAlive;
+
+        if (!isAlive) GameManager.Lose();
     }
 
 }

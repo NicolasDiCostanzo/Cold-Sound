@@ -6,6 +6,7 @@ TagManager:
   tags:
   - IceFloor
   - IceWall
+  - GameOver
   layers:
   - Default
   - TransparentFX

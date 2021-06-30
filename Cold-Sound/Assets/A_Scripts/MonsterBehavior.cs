@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class MonsterBehavior : MonoBehaviour
 {
@@ -21,10 +22,17 @@ public class MonsterBehavior : MonoBehaviour
     private GameObject monster_GO;
     private AudioManager audioManager;
 
+    PostProcessVolume postVolume;
+    Vignette vignette;
+    
+
     // Start is called before the first frame update
     void Start()
     {
         audioManager = FindObjectOfType<AudioManager>();
+        postVolume = GameObject.Find("PostProcessVolume").GetComponent<PostProcessVolume>();
+        postVolume.profile.TryGetSettings(out vignette);
+
         spawnProbability = 0f;
         probability_valueChanged = spawnProbability;
 
@@ -40,6 +48,7 @@ public class MonsterBehavior : MonoBehaviour
 
             probability_valueChanged = spawnProbability;
         }
+        vignette.intensity.value = spawnProbability;
     }
 
     IEnumerator MonsterIsAlerted()

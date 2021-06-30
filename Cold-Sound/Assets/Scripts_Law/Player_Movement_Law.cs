@@ -47,7 +47,7 @@ public class Player_Movement_Law : MonoBehaviour
         //{
         //    rb.AddTorque(-m_EulerAngleVelocity, ForceMode.Force);
         //}
-        Debug.Log(rb.velocity.y);
+        //Debug.Log(rb.velocity.y);
         
     }
     private void OnCollisionEnter(Collision collision)

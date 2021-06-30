@@ -17,11 +17,11 @@ public class KeysPanel_UI : MonoBehaviour
 
     private void Update()
     {
-        //~~~~~~~~~~~~~TEST~~~~~~~~~~~~
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            AddKeyUI();
-        }
+        ////~~~~~~~~~~~~~TEST~~~~~~~~~~~~
+        //if (Input.GetKeyDown(KeyCode.K))
+        //{
+        //    AddKeyUI();
+        //}
     }
 
     public void AddKeyUI()

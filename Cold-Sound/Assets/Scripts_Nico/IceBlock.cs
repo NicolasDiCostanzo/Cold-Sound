@@ -53,7 +53,7 @@ public class IceBlock : MonoBehaviour
         if (a_meltValue > 1)      a_meltValue = 1;
         else if (a_meltValue < 0) a_meltValue = 0;
 
-        material.SetFloat("_Transparency", a_meltValue);
+        material.SetFloat("_Metallic", a_meltValue);
 
     }
 

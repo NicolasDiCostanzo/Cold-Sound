@@ -12,9 +12,9 @@ public class CameraFollowsPlayer : MonoBehaviour
 
     void Update()
     {
-        if (PlayerBehaviour.isAlive) transform.position =
-                 new Vector3(objectToFollow.position.x + cameraOffset.x,
-             cameraPos.y + cameraOffset.y,
-             objectToFollow.position.z + cameraOffset.z);
+        //if (PlayerBehaviour.isAlive) transform.position =
+        //         new Vector3(objectToFollow.position.x + cameraOffset.x,
+        //     cameraPos.y + cameraOffset.y,
+        //     objectToFollow.position.z + cameraOffset.z);
     }
 }

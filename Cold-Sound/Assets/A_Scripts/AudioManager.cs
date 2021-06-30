@@ -30,6 +30,10 @@ public class AudioManager : MonoBehaviour
     {
         if (source == null)
             source = FindObjectOfType<AudioSource>();
+
+        float defaultSourceVolume = source.volume;
+        source.volume = MonsterBehavior.spawnProbability;
+
         switch (nameCategory)
         {
             case SoundCategory.MonsterSounds:
@@ -49,6 +53,7 @@ public class AudioManager : MonoBehaviour
                 break;
             case SoundCategory.screams:
                 source.clip = screams[UnityEngine.Random.Range(0, screams.Length)];
+
                 break;
             case SoundCategory.ploufs:
                 source.clip = ploufs[UnityEngine.Random.Range(0, ploufs.Length)];
@@ -56,6 +61,7 @@ public class AudioManager : MonoBehaviour
         }
 
         source.Play();
+        //if(source.volume != defaultSourceVolume) source.volume = defaultSourceVolume;
     }
 
     public enum SoundCategory

@@ -41,9 +41,21 @@ public class ScreamsSound : MonoBehaviour
     void ScreamSound()
     {
         int nbEnumValues = Enum.GetValues(typeof(AudioManager.SoundCategory)).Length;
-        int typeOfSoundToPlay = UnityEngine.Random.Range(0, nbEnumValues);
 
-        audioManager.Play((AudioManager.SoundCategory) typeOfSoundToPlay);
+        AudioManager.SoundCategory soundTypeToPlay;
+        do
+        {
+            int typeOfSoundToPlay = UnityEngine.Random.Range(0, nbEnumValues);
+
+            soundTypeToPlay = (AudioManager.SoundCategory)typeOfSoundToPlay;
+        } while (soundTypeToPlay != AudioManager.SoundCategory.atmospheres &&
+            soundTypeToPlay != AudioManager.SoundCategory.wallHit &&
+            soundTypeToPlay != AudioManager.SoundCategory.skate &&
+            soundTypeToPlay != AudioManager.SoundCategory.brake &&
+            soundTypeToPlay != AudioManager.SoundCategory.keyColleted
+        );
+
+        audioManager.Play(soundTypeToPlay);
         timeBetweenScreams = NewTimeBetweenTwoScreams();
     }
 

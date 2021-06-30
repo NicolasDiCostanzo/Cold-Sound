@@ -14,6 +14,8 @@ public class PlayerMakesSound : MonoBehaviour
     {
         audioManager = FindObjectOfType<AudioManager>();
         playerPos = transform.position.magnitude;
+
+        StartCoroutine(MakeSoundRoutine());
     }
 
     // Update is called once per frame
@@ -33,10 +35,12 @@ public class PlayerMakesSound : MonoBehaviour
 
             if (Input.GetKey(KeyCode.Z))
             {
+                audioManager.Play(AudioManager.SoundCategory.skate);
                 MonsterBehavior.HearingSound_FromSkate();
             }
             else if (Input.GetKey(KeyCode.S))
             {
+                audioManager.Play(AudioManager.SoundCategory.brake);
                 MonsterBehavior.HearingSound_FromBraking();
             }
             else if (Mathf.Abs(playerPosUpdate - playerPos) > 0.1f)

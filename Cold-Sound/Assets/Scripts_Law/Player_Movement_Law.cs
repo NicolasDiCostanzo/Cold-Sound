@@ -34,6 +34,7 @@ public class Player_Movement_Law : MonoBehaviour
         if (Input.GetKey(KeyCode.Z))
         {
             rb.AddForce(transform.forward * m_Speed, ForceMode.Force);
+
         }
         if (Input.GetKey(KeyCode.S))
         {

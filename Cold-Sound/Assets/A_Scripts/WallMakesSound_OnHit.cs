@@ -5,17 +5,14 @@ using UnityEngine;
 public class WallMakesSound_OnHit : MonoBehaviour
 {
     AudioManager audioManager;
-    // Start is called before the first frame update
+    //CameraShake cameraShake;
+
     void Start()
     {
         audioManager = FindObjectOfType<AudioManager>();
+        //cameraShake = Camera.main.GetComponent<CameraShake>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -25,6 +22,7 @@ public class WallMakesSound_OnHit : MonoBehaviour
 
             // Wall makes sound
             audioManager.Play(AudioManager.SoundCategory.wallHit);
+            //cameraShake.enabled = true;
         }
     }
 }

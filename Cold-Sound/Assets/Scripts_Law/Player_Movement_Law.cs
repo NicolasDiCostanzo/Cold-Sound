@@ -23,22 +23,26 @@ public class Player_Movement_Law : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (isAlive)
         {
-            transform.Rotate(Vector3.down * Time.fixedDeltaTime * tiltAngle);
+            if (Input.GetKey(KeyCode.Q))
+            {
+                transform.Rotate(Vector3.down * Time.fixedDeltaTime * tiltAngle);
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Rotate(Vector3.up * Time.fixedDeltaTime * tiltAngle);
+            }
+            if (Input.GetKey(KeyCode.Z))
+            {
+                rb.AddForce(transform.forward * m_Speed, ForceMode.Force);
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                rb.AddForce(transform.forward * -m_Speed, ForceMode.Force);
+            }
         }
-        if(Input.GetKey(KeyCode.D))
-        {
-            transform.Rotate(Vector3.up * Time.fixedDeltaTime * tiltAngle);
-        }
-        if (Input.GetKey(KeyCode.Z))
-        {
-            rb.AddForce(transform.forward * m_Speed, ForceMode.Force);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            rb.AddForce(transform.forward * -m_Speed, ForceMode.Force);
-        }  
+        
     }
 
     private void OnTriggerEnter(Collider other)

@@ -27,6 +27,7 @@ public class EndGameCanvasHandler : MonoBehaviour
         {
             if (Input.GetButton("Jump"))
             {
+                Player_Movement_Law.isAlive = true;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             } 
         }

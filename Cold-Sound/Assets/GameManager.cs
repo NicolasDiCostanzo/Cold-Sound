@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(nbKeys);
+
         if(nbKeys == 3)
         {
             doorScript.isOpened = true;

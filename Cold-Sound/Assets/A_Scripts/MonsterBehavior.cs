@@ -69,7 +69,12 @@ public class MonsterBehavior : MonoBehaviour
 
             StartCoroutine(MonsterAttackSounds());
 
-            monster_GO = Instantiate(monster_Prefab);
+            //  monster_GO = Instantiate(monster_Prefab);
+
+            Player_Movement_Law.isAlive = false;
+
+            EndGameCanvasHandler GameOverCanvas = FindObjectOfType<EndGameCanvasHandler>();
+            GameOverCanvas.Loose(2);
         }
     }
 

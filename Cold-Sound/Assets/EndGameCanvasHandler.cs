@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class EndGameCanvasHandler : MonoBehaviour
 {
@@ -18,7 +18,19 @@ public class EndGameCanvasHandler : MonoBehaviour
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        Loose(1);
+       
+    }
+
+    private void Update()
+    {
+        if (Player_Movement_Law.isAlive == false)
+        {
+            if (Input.GetButton("Jump"))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            } 
+        }
+
     }
 
     public void Win()

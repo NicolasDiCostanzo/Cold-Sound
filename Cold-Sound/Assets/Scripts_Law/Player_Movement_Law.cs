@@ -42,7 +42,12 @@ public class Player_Movement_Law : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Dead zone") SetIsAlive(false);
+        if (other.name == "Dead zone")
+        {
+            SetIsAlive(false);
+            EndGameCanvasHandler GameOverCanvas = FindObjectOfType<EndGameCanvasHandler>();
+            GameOverCanvas.Loose(1);
+        }
     }
 
     public static void SetIsAlive(bool a_isAlive)

@@ -11,7 +11,7 @@ public class Player_Movement_Law : MonoBehaviour
     public static bool isAlive = true;
 
     float smooth = 5.0f;
-    float tiltAngle = 40f;
+    public float tiltAngle = 40f;
 
     // Start is called before the first frame update
     void Start()
@@ -52,12 +52,12 @@ public class Player_Movement_Law : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "IceWall")
-        {
-            rb.constraints = RigidbodyConstraints.FreezeRotationY;
-            rb.constraints = RigidbodyConstraints.None;
-            rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-        }
+       // if(collision.gameObject.tag == "IceWall")
+       // {
+       //     rb.constraints = RigidbodyConstraints.FreezeRotationY;
+       //     rb.constraints = RigidbodyConstraints.None;
+       //     rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+       // }
     }
     private void OnTriggerEnter(Collider other)
     {

@@ -6,29 +6,24 @@ public class collectKeys : MonoBehaviour
 {
     private GameManager GM;
     private KeysPanel_UI KP_UI;
+    Light light;
 
     // Start is called before the first frame update
     void Start()
     {
         GM = FindObjectOfType<GameManager>();
         KP_UI = FindObjectOfType<KeysPanel_UI>();
+        light = GetComponentInChildren<Light>();
+        light.color = new Color32(System.Convert.ToByte(Random.Range(0, 255)), System.Convert.ToByte(Random.Range(0, 255)), System.Convert.ToByte(Random.Range(0, 255)), 255);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
-
         if (other.name == "Personnage")
         {
-            Debug.Log("coucou");
             GM.nbKeys++;
-            KP_UI.AddKeyUI();
+            //KP_UI.AddKeyUI();
             Destroy(gameObject);
         }
     }

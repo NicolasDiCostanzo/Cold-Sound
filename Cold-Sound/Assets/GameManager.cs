@@ -5,15 +5,20 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int nbKeys = 0;
-
+    AN_DoorScript doorScript;
+    
     void Start()
     {
-        
+        doorScript = GameObject.Find("Door").GetComponent<AN_DoorScript>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        
+
+        if(nbKeys == 3)
+        {
+            doorScript.isOpened = true;
+        }
     }
 
     public static void Lose()

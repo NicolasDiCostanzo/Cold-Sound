@@ -24,7 +24,7 @@ public class WallMakesSound_OnHit : MonoBehaviour
             MonsterBehavior.HearingSound_FromWall();
 
             // Wall makes sound
-            //audioManager.Play(...)
+            audioManager.Play(AudioManager.SoundCategory.wallHit);
         }
     }
 }

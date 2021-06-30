@@ -32922,8 +32922,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b0feac13c071249a892efe50b3ea04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweensScreams_lowLimit: 10
-  secondsBetweensScreams_highLimit: 60
+  secondsBetweensScreams_lowLimit: 15
+  secondsBetweensScreams_highLimit: 40
 --- !u!1001 &1941997197
 PrefabInstance:
   m_ObjectHideFlags: 0

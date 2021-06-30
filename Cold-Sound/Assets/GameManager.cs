@@ -23,6 +23,6 @@ public class GameManager : MonoBehaviour
 
     public static void Lose()
     {
-        Debug.Log(":'(");
+        Debug.Log("Lose");
     }
 }

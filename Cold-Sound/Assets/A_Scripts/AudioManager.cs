@@ -29,53 +29,60 @@ public class AudioManager : MonoBehaviour
         if (source == null)
             source = FindObjectOfType<AudioSource>();
 
-        
 
-        Debug.Log("Monster spawn probability: " + MonsterBehavior.spawnProbability);
+        //Debug.Log("Monster spawn probability: " + MonsterBehavior.spawnProbability);
 
         switch (nameCategory)
         {
             case SoundCategory.MonsterSounds:
-                source.volume = 1;
-                //source.volume = MonsterBehavior.spawnProbability;
+                if(MonsterBehavior.spawnProbability < .1f) source.volume = .1f;
+                else source.volume = MonsterBehavior.spawnProbability;
+
                 source.clip = MonsterSounds[UnityEngine.Random.Range(0, MonsterSounds.Length)];
                 break;
             case SoundCategory.MonsterPrepareSounds:
-                source.volume = 1;
-                //source.volume = MonsterBehavior.spawnProbability;
+                if (MonsterBehavior.spawnProbability < .1f) source.volume = .1f;
+                else source.volume = MonsterBehavior.spawnProbability;
+
                 source.clip = MonsterPrepareSounds[UnityEngine.Random.Range(0, MonsterPrepareSounds.Length)];
                 break;
             case SoundCategory.MonsterPassSounds:
-                source.volume = 1;
-                //source.volume = MonsterBehavior.spawnProbability;
+                if (MonsterBehavior.spawnProbability < .1) source.volume = .1f;
+                else source.volume = MonsterBehavior.spawnProbability;
+
                 source.clip = MonsterPassSounds[UnityEngine.Random.Range(0, MonsterPassSounds.Length)];
                 break;
             case SoundCategory.MonsterAttacksSounds:
-                source.volume = 1;
-                //source.volume = MonsterBehavior.spawnProbability;
+                if (MonsterBehavior.spawnProbability < .1f) source.volume = .1f;
+                else source.volume = MonsterBehavior.spawnProbability;
+
                 source.clip = MonsterAttacksSounds[UnityEngine.Random.Range(0, MonsterAttacksSounds.Length)];
                 break;
             case SoundCategory.atmospheres:
                 PlayAtmosphereSounds();
                 break;
             case SoundCategory.screams:
-                source.volume = 1;
+                if (MonsterBehavior.spawnProbability < .1f) source.volume = .1f;
+                else source.volume = MonsterBehavior.spawnProbability;
+                
                 source.clip = screams[UnityEngine.Random.Range(0, screams.Length)];
                 break;
             case SoundCategory.ploufs:
-                source.volume = 1;
+                if (MonsterBehavior.spawnProbability < .1f) source.volume = .1f;
+                else source.volume = MonsterBehavior.spawnProbability;
+                
                 source.clip = ploufs[UnityEngine.Random.Range(0, ploufs.Length)];
                 break;
             case SoundCategory.wallHit:
-                source.volume = 1;
+                source.volume = .5f;
                 source.clip = wallHit[UnityEngine.Random.Range(0, wallHit.Length)];
                 break;
             case SoundCategory.skate:
-                source.volume = 0.3f;
+                source.volume = 0.1f;
                 source.clip = skate[UnityEngine.Random.Range(0, skate.Length)];
                 break;
             case SoundCategory.brake:
-                source.volume = 1;
+                source.volume = .5f;
                 source.clip = brake[UnityEngine.Random.Range(0, brake.Length)];
                 break;
             case SoundCategory.keyColleted:
@@ -84,6 +91,7 @@ public class AudioManager : MonoBehaviour
                 break;
 
         }
+
 
         source.Play();
     }

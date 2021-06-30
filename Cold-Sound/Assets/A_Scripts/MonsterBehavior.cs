@@ -4,14 +4,14 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class MonsterBehavior : MonoBehaviour
 {
-    static private float WALL_SOUND_PROBA = .10f;
-    static private float SKATE_SOUND_PROBA = .01f;
-    static private float BRAKE_SOUND_PROBA = .15f;
-    static private float GLIDING_SOUND_PROBA = .05f;
-    static private float KEY_SOUND_PROBA = .20f;
-    static private float HEARING_PROBABILITY = .30f;
+    static private float WALL_SOUND_PROBA = .05f;
+    static private float SKATE_SOUND_PROBA = .005f;
+    static private float BRAKE_SOUND_PROBA = .05f;
+    static private float GLIDING_SOUND_PROBA = .025f;
+    static private float KEY_SOUND_PROBA = .05f;
+    static private float HEARING_PROBABILITY = .4f;
 
-    static private float MODIF_PROBA_AFTER_STOP_ALERTED = .75f;
+    static private float MODIF_PROBA_AFTER_STOP_ALERTED = .5f;
     static private float NB_SECONDES_MONSTER_ALERTED = 2f;
 
     public static float spawnProbability;

@@ -103,6 +103,7 @@ public class AudioManager : MonoBehaviour
             AudioSource newAudioSource = gameObject.AddComponent<AudioSource>();
             newAudioSource.clip = clip;
             newAudioSource.Play();
+            newAudioSource.loop = true;
         }
     }
 

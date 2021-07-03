@@ -123,6 +123,21 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &122166558 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 122166562, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+  m_PrefabInstance: {fileID: 5949436753191405371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &122166559 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 122166557, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+  m_PrefabInstance: {fileID: 5949436753191405371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &122166560 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 122166556, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+  m_PrefabInstance: {fileID: 5949436753191405371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &628592568
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +188,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 122166556, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 122166556, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 122166556, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 122166557, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 122166558, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 122166559, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 122166562, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: minVolume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: playerSounds
+      value: 
+      objectReference: {fileID: 122166560}
+    - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: monsterAttack
+      value: 
+      objectReference: {fileID: 122166558}
+    - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: soundsEffects
+      value: 
+      objectReference: {fileID: 122166559}
     - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
       propertyPath: brake.Array.size
       value: 4
@@ -180,6 +239,14 @@ PrefabInstance:
     - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
       propertyPath: skate.Array.size
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: backgroundSounds1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
+      propertyPath: backgroundSounds2
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5949436754227661656, guid: f892bcc585656fb428e8385d8ebe62fe, type: 3}
       propertyPath: wallHit.Array.size

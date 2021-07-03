@@ -6,7 +6,7 @@ public class RandomAmbianceSound : MonoBehaviour
     [SerializeField] [Range(0, 90f)] float secondsBetweensScreams_lowLimit;
     [SerializeField] [Range(0, 90f)] float secondsBetweensScreams_highLimit;
 
-    float timeBetweenScreams = 0, timeUntilNextScream;
+    float timeBetweenScreams = 0;
 
     AudioManager audioManager;
 
@@ -16,7 +16,7 @@ public class RandomAmbianceSound : MonoBehaviour
 
         if (!audioManager)
         {
-            Debug.LogError("Audio manager pas trouvé");
+            Debug.LogError("Audio manager pas trouvé, lance la bonne scène abruti");
             enabled = false;
         }
     }
@@ -43,18 +43,20 @@ public class RandomAmbianceSound : MonoBehaviour
         int nbEnumValues = Enum.GetValues(typeof(AudioManager.SoundCategory)).Length;
 
         AudioManager.SoundCategory soundTypeToPlay;
+
         do
         {
-
             int typeOfSoundToPlay = UnityEngine.Random.Range(0, nbEnumValues);
             soundTypeToPlay = (AudioManager.SoundCategory)typeOfSoundToPlay;
-
         } while (
             soundTypeToPlay == AudioManager.SoundCategory.atmospheres ||
             soundTypeToPlay == AudioManager.SoundCategory.wallHit ||
             soundTypeToPlay == AudioManager.SoundCategory.skate ||
             soundTypeToPlay == AudioManager.SoundCategory.brake ||
-            soundTypeToPlay == AudioManager.SoundCategory.keyColleted
+            soundTypeToPlay == AudioManager.SoundCategory.keyColleted ||
+            soundTypeToPlay == AudioManager.SoundCategory.ploufs ||
+            soundTypeToPlay == AudioManager.SoundCategory.MonsterPrepareSounds ||
+            soundTypeToPlay == AudioManager.SoundCategory.MonsterAttacksSounds
         );
 
         Debug.Log("play : " + soundTypeToPlay);

@@ -21,7 +21,6 @@ public class MonsterBehavior : MonoBehaviour
     private bool isAlerted;
 
     public GameObject monster_Prefab;
-    private GameObject monster_GO;
     private AudioManager audioManager;
 
     PostProcessVolume postVolume;
@@ -55,7 +54,7 @@ public class MonsterBehavior : MonoBehaviour
 
     IEnumerator MonsterIsAlerted()
     {
-        Debug.Log("Monster is alerted");
+        //Debug.Log("Monster is alerted");
         isAlerted = true;
 
         riskOfDying += 0.2f;
@@ -72,13 +71,13 @@ public class MonsterBehavior : MonoBehaviour
         probability_valueChanged = spawnProbability;
 
         isAlerted = false;
-        Debug.Log("Monster is not alerted");
+        //Debug.Log("Monster is not alerted");
     }
     public void TrySpawnMonster()
     {
         if (Random.Range(0, 1f) < spawnProbability)
         {
-            Debug.Log("Monster Spawns");
+            //Debug.Log("Monster Spawns");
 
             StartCoroutine(MonsterAttackSounds());
 
@@ -102,7 +101,7 @@ public class MonsterBehavior : MonoBehaviour
     {
         if (Random.Range(0, 1f) < spawnProbability)
         {
-            Debug.Log("Monster makes Sound");
+            //Debug.Log("Monster makes Sound");
             if (spawnProbability < .3f)
                 audioManager.Play(AudioManager.SoundCategory.MonsterPassSounds);
             else
@@ -118,7 +117,7 @@ public class MonsterBehavior : MonoBehaviour
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
-            Debug.Log("Hearing sound from wall");
+            //Debug.Log("Hearing sound from wall");
             spawnProbability += WALL_SOUND_PROBA;
         }
     }
@@ -127,7 +126,7 @@ public class MonsterBehavior : MonoBehaviour
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
-            Debug.Log("Hearing sound from Skate");
+            //Debug.Log("Hearing sound from Skate");
             spawnProbability += SKATE_SOUND_PROBA;
         }
     }
@@ -136,7 +135,7 @@ public class MonsterBehavior : MonoBehaviour
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
-            Debug.Log("Hearing sound from glide");
+            //Debug.Log("Hearing sound from glide");
             spawnProbability += GLIDING_SOUND_PROBA;
         }
     }
@@ -144,7 +143,7 @@ public class MonsterBehavior : MonoBehaviour
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
-            Debug.Log("Hearing sound from glide");
+            //Debug.Log("Hearing sound from glide");
             spawnProbability += BRAKE_SOUND_PROBA;
         }
     }
@@ -153,7 +152,7 @@ public class MonsterBehavior : MonoBehaviour
     {
         if (Random.Range(0, 1f) < HEARING_PROBABILITY + spawnProbability)
         {
-            Debug.Log("Hearing sound from key");
+            //Debug.Log("Hearing sound from key");
             spawnProbability += KEY_SOUND_PROBA;
         }
     }

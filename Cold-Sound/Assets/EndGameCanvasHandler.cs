@@ -14,11 +14,15 @@ public class EndGameCanvasHandler : MonoBehaviour
     [SerializeField] GameObject Hint2;
     [SerializeField] GameObject JumpScare;
 
+    AudioManager audioManager;
+
 
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-       
+        audioManager = FindObjectOfType<AudioManager>();
+
+        if (!audioManager) Debug.LogError("Audio manager pas trouvé");
     }
 
     private void Update()
@@ -40,8 +44,14 @@ public class EndGameCanvasHandler : MonoBehaviour
         StartCoroutine(FadeIn());
     }
 
+    bool alreadyDead = false;
+
     public void Loose(int HintIndex)
     {
+        //Evite la superposition des canvas
+        if (alreadyDead) return;
+
+        alreadyDead = true;
 
         if (HintIndex == 1)
         {
@@ -50,7 +60,9 @@ public class EndGameCanvasHandler : MonoBehaviour
         else if (HintIndex == 2)
         {
             Hint2.SetActive(true);
+            audioManager.PlayDeathSound();
         }
+
         JumpScare.SetActive(true);
         LooseText.SetActive(true);
 
